@@ -10,9 +10,9 @@ This exercise will test your ability to combine data from two different tables o
 
 `Table 1` has the following variables; `date`, `user_id`, `song_id`, `count`, where count is the total number of times a user has listened to a given song.
 
-Table 2 has the same variables but instead of a lifetime total count, the count variable is the number of times a user has listened to a given song that particular day. This lifetime cumulative count needs to be updated daily.
+`Table 2` has the same variables but instead of a lifetime total count, the count variable is the number of times a user has listened to a given song that particular day. This lifetime cumulative count needs to be updated daily.
 
-The task is to pull the daily counts from the table 2 and add them to the cumulative count on table 1. 
+The task is to pull the daily counts from the `table 2` and add them to the cumulative count on `table 1`. 
 
 Use any method to aggregate the daily counts with the cumulative counts. Your submission will be only judged based on the contents of the final table. Name your updated table `table_updated`.
 
