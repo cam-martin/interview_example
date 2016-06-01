@@ -12,7 +12,7 @@ Brain Games are a great way for interviewers to get a sence of how your mind wor
 
 You will be given a number of challenges and riddles to try to solve. In your interview you may not have R to use as a giant calculator but solving these puzzels here will be great practice. It can even help you visualize how you would solve the problem and that is what the interviewers are most interested in learning about you. 
 
-Use the R script to make any calculations but you will be only judged on your final solution. Assign the final answer to `final_answer`. You will get feedback on whether you are correct! Don't worry if you don't get it, we will go through one way of solving each game in the exercises following. 
+Use the R script to make any calculations but you will be only judged on your final solution. 
 
 Let's get right to it. No holding back. 
 
@@ -40,6 +40,7 @@ test_mc(correct = 2, feedback_msgs = c(msg1, msg2))
 --- type:NormalExercise lang:r xp:100 skills:1 key:f5ed5290d0
 ## Brain Games
 
+Assign the final answer to `final_answer`. You will get feedback on whether you are correct! Don't worry if you don't get it, we will go through one way of solving each game in the exercises following.
 
 *** =instructions
 -
