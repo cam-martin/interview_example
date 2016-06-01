@@ -39,14 +39,14 @@ Run the sample code to move to the first exercise.
 *** =sample_code
 ```{r}
 # Are you ready to see what you know?
-#Lets_go <- Yes!
+#Lets_go <- "Yes!"
 #print(Lets_go)
 ```
 
 *** =solution
 ```{r}
 # Are you ready to see what you know?
-Lets_go <- Yes!
+Lets_go <- "Yes!"
 print(Lets_go)
 ```
 
