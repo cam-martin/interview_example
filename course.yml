@@ -1,7 +1,7 @@
-title            : Template R DataCamp Course
+title            : Interview Prep Exmple
 author_field     : cam-martin
-description      : This is an automatically generated demo course which will help you on your way to create an awesome DataCamp course.
-author_bio       : cam-martin is an awesome DataCamp course creator.<br>You can tell something about yourself <strong>here</strong>.
+description      : This is an example of what an interview prep course could look like
+author_bio       : cam-martin is an awesome DataCamp course creator.
 university       : DataCamp
 difficulty_level : 2
 time_needed      : 1 hour
