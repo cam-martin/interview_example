@@ -33,11 +33,11 @@ If you get stuck, skip this exercise and go through one of the possible solution
 ```{r}
 library(dplyr)
 load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1141/datasets/table_1_DM_FB.RData"))
-table_1 <- table_1_DM_FB
+
 load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1141/datasets/table_2_DM_FB.RData"))
-table_2 <- table_2_DM_FB
+
 load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1141/datasets/table_updated_DM_FB.RData"))
-table_updated <- table_updated_DM_FB
+
 
 ```
 *** =sample_code
