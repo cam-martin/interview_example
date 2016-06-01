@@ -79,8 +79,8 @@ The `count` variable in both seem to be the same, but what happened to the other
 In an interview, these details can demonstrate a more complete understanding of the language!
 
 *** =instructions
-- Add `table_1` with `table_2` using the `+` operator.
-- Using the package `dplyr`, `mutate` the `count` variable
+- Add `table_1` with `table_2` using the `+` operator. Assign the output to `table_updated_1`.
+- Using the package `dplyr`, `mutate` the `count` variable. Assign the output to `table_updated_2`.
 
 *** =hint
 - Remember to use the `%>%` operator when using a pipe. 
@@ -95,10 +95,10 @@ load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1141/dat
 *** =sample_code
 ```{r}
 # Combine the two tables with the + operator
-table_updated <- _______ + ________
+table_updated_1 <- _______ + ________
 
 # Use dplyr to mutate the count variable
-table_updated <- table_1 ___ mutate(count = ______ + ______)
+table_updated_2 <- table_1 ___ mutate(count = ______ + ______)
 
 ```
 *** =solution
