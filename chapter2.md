@@ -1,11 +1,11 @@
 ---
-title       : Data Acquitition
-description : Test your data aquition skills, like scrapping...
+title       : Statistical Theory
+description : Test your knowledge of statistical theory! Don't worry if you miss something we will give you the rundown on all you need to know
 attachments :
   slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
 --- type:NormalExercise lang:r xp:100 skills:1 key:f5ed5290d0
-## Web scrapping
+## Causal Inference
 
 In this course/tutorial you will test your data science expertice by answering common interview questions. 
 
