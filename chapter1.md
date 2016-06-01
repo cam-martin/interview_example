@@ -27,7 +27,6 @@ Lets begin!
 Run the sample code to move to the first exercise.
 *** =instructions
 - Remove the `#s` to move on to the first exercise.
-- 
 *** =hint
 - Don't change any of the sample code, just remove the `#`. 
 
