@@ -30,7 +30,8 @@ load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1141/dat
 
 load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1141/datasets/table_2_DM_FB.RData"))
 
-load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1141/datasets/table_updated_DM_FB.RData"))
+#load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1141/datasets/table_updated_DM_FB.RData"))
+table_updated = table_1 %>% mutate(count = table_1$count + table_2$count)
 ```
 *** =sample_code
 ```{r}
