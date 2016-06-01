@@ -23,7 +23,6 @@ The question is, could the snakes meet so that eventually all snakes become the 
 *** =instructions
 - Yes, you can achieve a monochormatic band of snakes!
 - No, you will always have at least two colors
-- 
 *** =hint
 Try simplifying the numbers, can you get all one color with just 1 blue, 3 red and 7 yellow?   
 
