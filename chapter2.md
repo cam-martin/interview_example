@@ -122,7 +122,7 @@ test_function("mutate",
 test_error()
 success_msg("Good work! You were able to add the daily counts from table 2 to the total counts in table 1")
 ```
---- type:NormalExercise lang:r xp:100 skills:1 key:70b53164b2
+--- type:NormalExercise lang:r xp:100 skills:1 key:89766e415f
 ## Data Manipulation Explanation - Adding data from two tables
 
 You created to updated tables in the previous exercise. Now take a look at the outputs to see the differences in the approaches.   
