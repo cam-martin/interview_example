@@ -59,7 +59,7 @@ print(Lets_go)
 # Test whether the function str is called with the correct argument, object
 # If it is not called, print something informative
 # If it is called, but called incorrectly, print something else
-test_function("print", args = "object",
+test_function("print", args = "x",
               not_called_msg = "You use the `print()` function",
               incorrect_msg = "Something went wrong with your `print()` fucntion. Did you remember to remove both `#s`")
 
