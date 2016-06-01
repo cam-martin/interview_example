@@ -15,12 +15,12 @@ After we test your understanding and technical ability, we will walk you through
 
 In between each exercise are multiple choice about the theoretical practice of data science. These will require less interactive coding to solve, but are useful to keep your data science theory sharp. 
 
-This course will cover 5 general topics that all data sciencists should have mastered:
-- 
--
--
--
--
+This course will cover 4 general topics that all data sciencists should have mastered:
+
+- Data Aquitition
+- Data Manipulation
+- Data Anaylsis
+- Data Visualization
 
 Lets begin!
 
