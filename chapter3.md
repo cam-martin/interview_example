@@ -1,11 +1,11 @@
 ---
-title       : Data manipulation
-description : Test your data manipulation skills like adding or subtracting columns, filtering...
+title       : Applies Statistics
+description : Test your skills in applied statistics. Here interactive challenges with test your abilites and if you miss anything full explainations of each problem will polish your understanding.
 attachments :
   slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
 --- type:NormalExercise lang:r xp:100 skills:1 key:f5ed5290d0
-## Web scrapping
+## Machine Learning
 
 In this course/tutorial you will test your data science expertice by answering common interview questions. 
 
