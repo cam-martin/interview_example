@@ -112,10 +112,10 @@ table_updated_2 <- table_1 %>% mutate(count = table_1$count + table_2$count)
 ```
 *** =sct
 ```{r}
-test_data_frame("table_updated_1",index = 1,
+test_data_frame("table_updated_1",
               incorrect_msg = "Your updated `count` variable is not working. Try again!")
               
-test_data_frame("table_updated_2",index = 1,
+test_data_frame("table_updated_2",
               incorrect_msg = "Your updated `count` variable is not working. Did you remember to isolate the `count` variables in each table with the `$` operator?")
 
 test_function("mutate",
