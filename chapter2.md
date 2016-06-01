@@ -7,7 +7,7 @@ attachments :
 --- type:NormalExercise lang:r xp:100 skills:1 key:f5ed5290d0
 ## Data Manipulation
 
-Table 1 has the following variables
+`Table 1` has the following variables
 <p>- `date`<p/>
 <p>- `user_id`<p/>
 <p>- `song_id`<p/>
@@ -24,21 +24,27 @@ Use any method you can think of to aggregate the daily counts with the cumulativ
 
 If you get stuck, skip this exercise and go through one of the possible solutions in the following exercise. 
 
+*** =instructions
+- The task is to pull the daily counts from the `table 2` and add them to the cumulative count on `table 1`.
+- We suggest you take a look at `table_1` and `table_2` they are already loaded in your environements
+- Submit `table_updated` on its own line in the script.R 
+
 *** =pre_exercise_code
 ```{r}
 library(dplyr)
-load(url("s3.amazonaws.com/assets.datacamp.com/production/course_1141/datasets/table_1_DM_FB.RData"))
+load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1141/datasets/table_1_DM_FB.RData"))
 table_1 <- table_1_DM_FB
-load(url("s3.amazonaws.com/assets.datacamp.com/production/course_1141/datasets/table_2_DM_FB.RData"))
+load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1141/datasets/table_2_DM_FB.RData"))
 table_2 <- table_2_DM_FB
-load(url("s3.amazonaws.com/assets.datacamp.com/production/course_1141/datasets/table_updated_DM_FB.RData"))
+load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1141/datasets/table_updated_DM_FB.RData"))
 table_updated <- table_updated_DM_FB
 
 ```
 *** =sample_code
 ```{r}
-# The task is to pull the daily counts from the table 2 and add them to the cumulative count on table 1. 
-# We suggest you take a look at `table_1` and `table_2` they are already loaded in your environements
+# Explore the tables and submit your updated table here
+
+
 
 ```
 *** =solution
