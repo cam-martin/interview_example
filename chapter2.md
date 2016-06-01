@@ -31,7 +31,7 @@ load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1141/dat
 load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1141/datasets/table_2_DM_FB.RData"))
 
 #load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1141/datasets/table_updated_DM_FB.RData"))
-table_updated = table_1 %>% mutate(count = table_1$count + table_2$count)
+
 ```
 *** =sample_code
 ```{r}
@@ -42,8 +42,8 @@ table_updated = table_1 %>% mutate(count = table_1$count + table_2$count)
 ```
 *** =solution
 ```{r}
-# The task is to pull the daily counts from the table 2 and add them to the cumulative count on table 1. 
-table_updated
+# Explore the tables and submit your updated table here
+table_updated = table_1 %>% mutate(count = table_1$count + table_2$count)
 ```
 *** =sct
 ```{r}
