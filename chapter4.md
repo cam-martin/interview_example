@@ -1,11 +1,11 @@
 ---
-title       : Data Analysis
-description : Test your data analysis skills, like machine learning, text mining...
+title       : Critical thinking
+description : One of the most importants skills of a data scientist is the ability to think critically. Here are a series of mind benders to get you thinking critically. The challenge is not the coding, but thinking through the complex problems. We will provided detail interactive feedback for each mind game to really sharpen your critical thinking abilities.  
 attachments :
   slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
 --- type:NormalExercise lang:r xp:100 skills:1 key:f5ed5290d0
-## Web scrapping
+## Estimation
 
 In this course/tutorial you will test your data science expertice by answering common interview questions. 
 
