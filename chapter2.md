@@ -5,62 +5,45 @@ attachments :
   slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
 --- type:NormalExercise lang:r xp:100 skills:1 key:f5ed5290d0
-## Causal Inference
+## Data Manipulation
 
-In this course/tutorial you will test your data science expertice by answering common interview questions. 
+Table 1 has the following variables:
+- date
+- user_id
+- song_id
+- count 
+where count is the total number of times a user has listened to a given song.
 
-First, you will be presented by a question or senario that would commonly be in a data science interview. You will be given little help at first, these tutorials are designed to test your knowledge so that you can gave what ares you need to brush up on before your interview!
+Table 2 has the same variables but instead of a lifetime total count, the count variable is the number of times a user has listened to a given song that particular day.
 
-After we test your understanding and technical ability, we will walk you through each solution to make sure that you fully understand the elements of the interview question.
+This lifetime cumulative count needs to be updated daily.
 
-In between each exercise are multiple choice about the theoretical practice of data science. These will require less interactive coding to solve, but are useful to keep your data science theory sharp. 
+The task is to pull the daily counts from the table 2 and add them to the cumulative count on table 1. 
 
-This course will cover 4 general topics that all data sciencists should have mastered:
+Use any method you can think of to aggregate the daily counts with the cumulative counts. Your submission will be only judged based on the contents of the final table. Name your updated table `table_updated`.
 
-- Data Aquitition
-- Data Manipulation
-- Data Anaylsis
-- Data Visualization
-
-Lets begin!
-
-Run the sample code to move to the first exercise.
-*** =instructions
-- Remove the `#s` to move on to the first exercise.
-*** =hint
-- Don't change any of the sample code, just remove the `#`. 
+If you get stuck, skip this exercise and go through one of the possible solutions in the following exercise. 
 
 *** =pre_exercise_code
 ```{r}
 
 ```
-
 *** =sample_code
 ```{r}
-# Are you ready to see what you know?
-#Lets_go <- "Yes!"
-#print(Lets_go)
-```
+# The task is to pull the daily counts from the table 2 and add them to the cumulative count on table 1. 
 
+```
 *** =solution
 ```{r}
-# Are you ready to see what you know?
-Lets_go <- "Yes!"
-print(Lets_go)
+# The task is to pull the daily counts from the table 2 and add them to the cumulative count on table 1. 
+table_updated
 ```
-
 *** =sct
 ```{r}
-test_object("Lets_go",
+test_data_frame("table_updated",
               incorrect_msg = "Did you remember to define the object `Lets_go`? Just remove the `#`.")
-
-test_function("print", args = "x",
-              not_called_msg = "You use the `print()` function",
-              args_not_specified_msg = "Something went wrong with your `print()` fucntion. Did you remember to remove both `#s`",
-              incorrect_msg = "Something went wrong with your `print()` fucntion. Did you remember to remove both `#s`")
-
 
 # Final message the student will see upon completing the exercise
 test_error()
-success_msg("Good work!")
+success_msg("Good work! You were able to add the daily counts from table 2 to the total counts in table 1")
 ```
