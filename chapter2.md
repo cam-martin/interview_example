@@ -6,17 +6,11 @@ attachments :
 
 --- type:NormalExercise lang:r xp:100 skills:1 key:f5ed5290d0
 ## Data Manipulation
+This exercise will test your ability to combine data from two different tables or data frames. This questions was taken from an interview submission by a Facebook employee on [Glassdoor.com](https://www.glassdoor.com/Interview/Facebook-Data-Scientist-Interview-Questions-EI_IE40772.0,8_KO9,23.htm).
 
-`Table 1` has the following variables
-<p>- `date`<p/>
-<p>- `user_id`<p/>
-<p>- `song_id`<p/>
-<p>- `count`<p/>
-<p>where count is the total number of times a user has listened to a given song.<p>
+`Table 1` has the following variables; `date`, `user_id`, `song_id`, `count`, where count is the total number of times a user has listened to a given song.
 
-Table 2 has the same variables but instead of a lifetime total count, the count variable is the number of times a user has listened to a given song that particular day.
-
-This lifetime cumulative count needs to be updated daily.
+Table 2 has the same variables but instead of a lifetime total count, the count variable is the number of times a user has listened to a given song that particular day. This lifetime cumulative count needs to be updated daily.
 
 The task is to pull the daily counts from the table 2 and add them to the cumulative count on table 1. 
 
