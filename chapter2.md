@@ -59,7 +59,7 @@ test_error()
 success_msg("Good work! You were able to add the daily counts from table 2 to the total counts in table 1")
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1 key:f5ed5290d0
+--- type:NormalExercise lang:r xp:100 skills:1 key:70b53164b2
 ## Data Manipulation Explaination - Addind data from two tables
 
 The previous exercise tested your ability to combine data from two different tables or data frames. It was a very straight forward question and the solution could have been obtained in many ways. And each of those possible solutions has pros and cons.  
