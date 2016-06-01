@@ -1,5 +1,5 @@
 ---
-title       : Interview Prep Course Example
+title       : Introduction
 description : Test and sharpen your data science interview skills
 attachments :
   slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
@@ -23,7 +23,7 @@ This course will cover 3 general topics that all data sciencists should have mas
 
 Lets begin!
 
-Run the sample code to move to the first exercise.
+Run the sample code to move to some warm up exercises.
 *** =instructions
 - Remove the `#s` to move on to the first exercise.
 *** =hint
