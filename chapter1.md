@@ -57,7 +57,7 @@ test_object("Lets_go",
 
 test_function("print", args = "x",
               not_called_msg = "You use the `print()` function",
-              args_not_specified_msg = "Something went wrong with your `print()` fucntion. Did you remember to remove both `#s`,
+              args_not_specified_msg = "Something went wrong with your `print()` fucntion. Did you remember to remove both `#s`",
               incorrect_msg = "Something went wrong with your `print()` fucntion. Did you remember to remove both `#s`")
 
 
