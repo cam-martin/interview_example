@@ -8,11 +8,11 @@ attachments :
 ## Data Manipulation
 
 Table 1 has the following variables
-- `date`
-- `user_id`
-- `song_id`
-- `count`
-where count is the total number of times a user has listened to a given song.
+<p>- `date`<p/>
+<p>- `user_id`<p/>
+<p>- `song_id`<p/>
+<p>- `count`<p/>
+<p>where count is the total number of times a user has listened to a given song.<p>
 
 Table 2 has the same variables but instead of a lifetime total count, the count variable is the number of times a user has listened to a given song that particular day.
 
