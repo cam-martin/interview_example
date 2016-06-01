@@ -16,13 +16,13 @@ Use the R script to make any calculations but you will be only judged on your fi
 
 Let's get right to it. No holding back. 
 
-In this senario, there are 13 blue, 15 red, and 17 yellow snakes. Everytime they two opposing colored snakes meet their color switches to the third color. A red snake meets a blue snake and they both turn yellow. 
+In this senario, there are 13 blue, 15 red, and 17 yellow snakes. Everytime two opposing colored snakes meet their color switches to the third color. A red snake meets a blue snake and they both turn yellow. 
 
 The question is, could the snakes meet so that eventually all snakes become the same color?
 
 *** =instructions
 - Yes, you can achieve a monochormatic band of snakes!
-- No, you will always have at least two colors
+- No, you will always have at least two colors.
 *** =hint
 Try simplifying the numbers, can you get all one color with just 1 blue, 3 red and 7 yellow?   
 
@@ -40,11 +40,14 @@ test_mc(correct = 2, feedback_msgs = c(msg1, msg2))
 --- type:NormalExercise lang:r xp:100 skills:1 key:f5ed5290d0
 ## Brain Games
 
-Assign the final answer to `final_answer`. You will get feedback on whether you are correct! Don't worry if you don't get it, we will go through one way of solving each game in the exercises following.
+In the previous exercise, you had to decide whether you could combine 3 groups of colored snakes to make a gourp with just one color knowing that when two different colored snakes met they changed to the third color.
+
+This seems like an easy task but when if you tried to manually combine snakes you realized that your mind has a hard time being confident that there is not solution. 
+
+The following code demonstrates that there is a way to be sure that you are right! Here is one way to justify that it is impossible to combine pairs of snakes to get all the snakes to be just one color. 
 
 *** =instructions
--
-
+- Follow the code detailing a possible solution to the brain game
 
 *** =pre_exercise_code
 ```{r}
@@ -53,17 +56,22 @@ Assign the final answer to `final_answer`. You will get feedback on whether you 
 
 *** =sample_code
 ```{r}
-
+# Make a quik data frame with the infromation about the snakes
+color <- ___________
+count <- c(__,__,__)
+snakes <- data.frame(color,count)
 ```
 
 *** =solution
 ```{r}
-
+color <- c("blue_snakes","red_snakes","yellow_snakes")
+count <- c(13,15,17)
+snakes <- data.frame(color,count)
 ```
 
 *** =sct
 ```{r}
-test_object("Lets_go",
+test_data_frame("snakes",
               incorrect_msg = "Did you remember to define the object `Lets_go`? Just remove the `#`.")
 
 test_function("print", args = "x",
