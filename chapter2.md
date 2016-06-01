@@ -7,11 +7,11 @@ attachments :
 --- type:NormalExercise lang:r xp:100 skills:1 key:f5ed5290d0
 ## Data Manipulation
 
-Table 1 has the following variables:
-- date
-- user_id
-- song_id
-- count 
+Table 1 has the following variables
+- `date`
+- `user_id`
+- `song_id`
+- `count`
 where count is the total number of times a user has listened to a given song.
 
 Table 2 has the same variables but instead of a lifetime total count, the count variable is the number of times a user has listened to a given song that particular day.
@@ -26,7 +26,7 @@ If you get stuck, skip this exercise and go through one of the possible solution
 
 *** =pre_exercise_code
 ```{r}
-library(dplry)
+library(dplyr)
 load(url("s3.amazonaws.com/assets.datacamp.com/production/course_1141/datasets/table_1_DM_FB.RData"))
 table_1 <- table_1_DM_FB
 load(url("s3.amazonaws.com/assets.datacamp.com/production/course_1141/datasets/table_2_DM_FB.RData"))
@@ -48,8 +48,8 @@ table_updated
 ```
 *** =sct
 ```{r}
-test_data_frame("table_updated",
-              incorrect_msg = "Did you remember to define the object `Lets_go`? Just remove the `#`.")
+test_data_frame("table_updated", columns = "count",
+              incorrect_msg = "Your updated `count` variable is not working. Try again!")
 
 # Final message the student will see upon completing the exercise
 test_error()
