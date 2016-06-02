@@ -1,5 +1,5 @@
 ---
-title       : Applies Statistics
+title       : Applied Statistics
 description : Test your skills in applied statistics. Here interactive challenges with test your abilites and if you miss anything full explainations of each problem will polish your understanding.
 attachments :
   slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
