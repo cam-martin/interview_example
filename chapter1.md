@@ -1,8 +1,7 @@
 ---
 title       : Introduction
-description : Test and sharpen your data science interview skills
+description : Test your data science skills and prepare for an interview
 attachments :
-  slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
 --- type:NormalExercise lang:r xp:100 skills:1 key:f5ed5290d0
 ## Intro to Interview Prep
