@@ -85,7 +85,7 @@ test_error()
 success_msg("Good work!")
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1 key:f5ed5290d0
+--- type:NormalExercise lang:r xp:100 skills:1 key:c6a787c38c
 ## Falling eggs Brain Game
 
 You have two identical eggs. Standing in front of a 100 floor building, you wonder what is the maximum number of floors from which the egg can be dropped without breaking it. What is the minimum number of tries needed to find out the solution?
