@@ -6,7 +6,7 @@ attachments :
 
 
 --- type:MultipleChoiceExercise xp:50 skills:1  key:f48b5ed8a3
-## Brain Games
+## Colored Snakes Brain Game
 
 Brain Games are a great way for interviewers to get a sence of how your mind works. They make you think in different ways and challenge you to think outside the box. 
 
@@ -38,7 +38,7 @@ test_mc(correct = 2, feedback_msgs = c(msg1, msg2))
 ```
 
 --- type:NormalExercise lang:r xp:100 skills:1 key:f5ed5290d0
-## Brain Games
+## Colored Snakes Brain Game
 
 In the previous exercise, you had to decide whether you could combine 3 groups of colored snakes to make a gourp with just one color knowing that when two different colored snakes met they changed to the third color.
 
@@ -85,5 +85,41 @@ test_error()
 success_msg("Good work!")
 ```
 
+--- type:NormalExercise lang:r xp:100 skills:1 key:f5ed5290d0
+## Falling eggs Brain Game
+
+You have two identical eggs. Standing in front of a 100 floor building, you wonder what is the maximum number of floors from which the egg can be dropped without breaking it. What is the minimum number of tries needed to find out the solution?
+
+*** =instructions
+- Make any calculations in the R script to solve the brain game.
+- Assign your final and answer as `final_answer`. This is the only value that will be judged in this exercise. 
+
+*** =pre_exercise_code
+```{r}
+
+```
+
+*** =sample_code
+```{r}
+# What is the minimum number of tries needed to find out the solution?
+final_answer <-
+
+```
+
+*** =solution
+```{r}
+# What is the minimum number of tries needed to find out the solution?
+final_answer <- 19
+```
+
+*** =sct
+```{r}
+test_objecct("final_answer",
+              incorrect_msg = "Not quite. If you can't find the answer, click hint and then solution. We will go through the answer in the next exercise!")
+
+# Final message the student will see upon completing the exercise
+test_error()
+success_msg("Great work! Now let's see how we arrived at that answer.")
+```
 
 
