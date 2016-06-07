@@ -114,7 +114,7 @@ final_answer <- 19
 
 *** =sct
 ```{r}
-test_objecct("final_answer",
+test_object("final_answer",
               incorrect_msg = "Not quite. If you can't find the answer, click hint and then solution. We will go through the answer in the next exercise!")
 
 # Final message the student will see upon completing the exercise
